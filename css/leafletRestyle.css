@@ -1,0 +1,60 @@
+/* Map ReStyle */
+.map {
+    width: 100vw;
+    height: 65vh;
+    top: 20vh;
+    z-index: 0;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+.leaflet-container {
+    font: inherit;
+    background: #000;
+    opacity: 0.95;
+}
+.leaflet-container a {
+    color: #005A85;
+}
+.leaflet-bar a, .leaflet-bar a:hover {
+    background-color: rgba(0,0,0,0.9);
+    color: rgba(255,255,255,1);
+}
+.leaflet-popup-content {
+    margin: 13px 19px;
+    line-height: 1.4;
+}
+.leaflet-popup-content-wrapper {
+    border-radius: 3px;
+}
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+    box-shadow: 0 3px 14px rgba(0,0,0,1);
+}
+.leaflet-tile {
+    -webkit-filter: hue-rotate(260deg) invert(100%);
+}
+.leaflet-tile-pane {
+    -webkit-filter: grayscale(85%);
+    filter: grayscale(85%);
+}
+.leaflet-container .leaflet-control-attribution {
+    background: rgba(255, 255, 255, 0);
+    margin: 5px; 
+}
+.leaflet-routing-container {
+    display: none;
+}
+.leaflet-touch .leaflet-bar a:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.leaflet-touch .leaflet-bar a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.leaflet-touch .leaflet-bar a:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
